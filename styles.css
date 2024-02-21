@@ -1,0 +1,30 @@
+body{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(124, 146, 85);
+    color: azure;
+    font-family: monospace;
+}
+
+.container{
+    padding-top: 100px;
+    justify-content: center;
+  
+}
+.img{
+   padding: 50px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding-top: 100px;
+
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    background-color: lightsteelblue;
+    color:cadetblue;
+}
