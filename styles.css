@@ -2,8 +2,8 @@
 body{
     width: 60%;
     margin: auto;
-    background-color: rgb(124, 146, 85);
-    color: azure;
+    background-color: rgb(141, 156, 114);
+    color: rgb(217, 226, 238);
     font-family: "Source Code Pro", monospace;
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 .banner{
-    background-color: rgb(98, 0, 0);
+    background-color: rgba(93, 0, 0, 0.89);
     margin: 0%;
     padding: 0px;
     width: 100%;
@@ -32,14 +32,14 @@ body{
 }
 .banner__content{
     text-align: center;
-    margin: 0%;
+    margin: auto;
     padding: 0px;
     width: 100%;
 }
 
 .blink {
     font-size: 50px;
-    color: rgba(212, 0, 0, 0.818);
+    color: lightsteelblue;
     animation: blinker 2s step-start infinite;
   }
   
