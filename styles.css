@@ -1,40 +1,40 @@
 
 body{
-    width: 60%;
-    margin: auto;
     background-color: rgb(141, 156, 114);
     color: rgb(217, 226, 238);
     font-family: "Source Code Pro", monospace;
+    margin: 0;
 }
 
 .container{
-    padding-top: 100px;
-    justify-content: center;
+    padding-top: 25;
+    width: 1000px;
+    margin: auto;
   
 }
 .img{
-   padding: 50px;
+   padding: 0px;
 }
+
 .gridcontainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    padding-top: 100px;
+    background-color: rgba(252, 122, 178, 0.769);
+    padding: 175px;
 
 }
 
 .banner{
-    background-color: rgba(93, 0, 0, 0.89);
+    background-color: rgba(252, 122, 178, 0.769);
     margin: 0%;
     padding: 0px;
     width: 100%;
-    display: flex;
 }
 .banner__content{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin: auto;
-    padding: 0px;
-    width: 100%;
 }
 
 .blink {
