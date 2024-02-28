@@ -21,7 +21,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     background-color: rgba(252, 122, 178, 0.769);
-    padding: 175px;
+    padding: 150px;
 
 }
 
